@@ -3,9 +3,9 @@ run-name: frontend-ci • ${{ github.ref_name }} • ${{ github.sha }}
 
 on:
   push:
-    branches: [main]
+    branches: [main, staging]
   pull_request:
-    branches: [main]
+    branches: [main, staging]
 
 jobs:
   build:
